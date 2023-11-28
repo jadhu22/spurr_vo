@@ -59,7 +59,7 @@ int main(int argc, char **argv)
     std::string sgPath = "/home/jadoo/SuperGluePretrainedNetworkCPP/cpp/build/SuperGlue.zip";
 
     // Create SLAM system. It initializes all system threads and gets ready to process frames.
-    std::string settings = "/home/jadoo/ELEC845/project/ws/src/Spurr_VO/l515.yaml";
+    std::string settings = "/home/jadoo/ELEC845/project/ws/src/Spurr_VO/camera.yaml";
     SPURR_VO::System SLAM(settings, spPath, sgPath);
 
     ImageGrabber igb(&SLAM);
